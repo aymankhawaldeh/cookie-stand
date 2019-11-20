@@ -1,5 +1,5 @@
 
-'use script'
+'use strict'
 var shops = [];
 
 var container = document.getElementById("cookiesShop");
