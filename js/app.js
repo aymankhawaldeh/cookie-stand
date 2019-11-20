@@ -1,4 +1,5 @@
 
+'use script'
 var shops = [];
 
 var container = document.getElementById("cookiesShop");
@@ -109,7 +110,7 @@ function handleSubmit(event) {
   var avg = parseFloat(event.target.avg.value);
   var newShop = new Shop(name, min, max, avg);
   console.log(newShop);
-  shops.push(newShop);
+
 
   var rowCount = tableEl.rows.length;
   tableEl.deleteRow(rowCount - 1);
